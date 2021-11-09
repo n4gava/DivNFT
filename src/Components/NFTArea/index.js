@@ -67,7 +67,7 @@ const NFTArea = ({ nft, onChange }) => {
                 showErrorNotification(e.message)
             }
         },
-        [content, destinationUrl, address, price, divNFTContract, onChange, nft.tokenId]
+        [content, destinationUrl, address, price, divNFTContract, onChange, nft.tokenId, ERC20_DECIMALS]
     )
 
     const buyNft = useCallback(async () => {

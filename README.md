@@ -8,7 +8,7 @@ The smart contract was deployed on celo alfajores network.
 
 Contract Address: [0xBa167453C63Fc2541A8509B3990e3CcBd6B7630D](https://alfajores-blockscout.celo-testnet.org/address/0xBa167453C63Fc2541A8509B3990e3CcBd6B7630D)
 
-Live demo: []()
+Live demo: https://n4gava.github.io/DivNFT
 
 ## Prerequisites
 1. Install the [CeloExtensionWallet](https://chrome.google.com/webstore/detail/celoextensionwallet/kkilomkmpmkbdnfelcpgckmpcaemjcdh?hl=en) extension for Chrome
