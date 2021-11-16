@@ -15,6 +15,9 @@ const Header = () => {
                     <NavLink className="nav-link" activeclassname="active" to="/sample">
                         Sample Page
                     </NavLink>
+                    <NavLink className="nav-link" activeclassname="active" to="/mynft">
+                        My Div NFTs
+                    </NavLink>
                 </nav>
                 <div className="wallet-masthead">
                     <WalletInfo />
