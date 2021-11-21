@@ -12,11 +12,11 @@ const Header = () => {
                     <NavLink className="nav-link" activeclassname="active" to="/mint">
                         Mint NFT
                     </NavLink>
-                    <NavLink className="nav-link" activeclassname="active" to="/sample">
-                        Sample Page
-                    </NavLink>
                     <NavLink className="nav-link" activeclassname="active" to="/mynft">
                         My Div NFTs
+                    </NavLink>
+                    <NavLink className="nav-link" activeclassname="active" to="/sample">
+                        Sample Page
                     </NavLink>
                 </nav>
                 <div className="wallet-masthead">

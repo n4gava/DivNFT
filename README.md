@@ -26,6 +26,9 @@ Live demo: https://n4gava.github.io/DivNFT
 3. You can edit your NFT by clicking on the Gear icon
 4. You can buy some NFT by clicking on price
 
+## Deploy on GitHub Pages
+1. For deploy run `yarn run deploy`
+
 ## Improvements
 1. Separate the ERC721 contract from logic and storage contracts
 2. Create a javascript package for helping developers to use the minted NFT in their websites

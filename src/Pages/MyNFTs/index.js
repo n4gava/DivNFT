@@ -10,8 +10,8 @@ const MyNft = () => {
     const [loading, setLoading] = useState(false)
 
     const updateNft = (nft) => {
-        const newNfts = nfts.filter((n) => n.tokenId !== nft.tokenId)
-        setNfts([...newNfts, nft].sort((a, b) => a.tokenId - b.tokenId))
+        const newNfts = myNfts.filter((n) => n.tokenId !== nft.tokenId)
+        setMyNfts([...newNfts, nft].sort((a, b) => a.tokenId - b.tokenId))
     }
 
     useEffect(() => {
@@ -27,7 +27,7 @@ const MyNft = () => {
             setLoading(false)
         }
         if (divNFTContract) getNfts()
-    }, [lastTokenId, divNFTContract])
+    }, [lastTokenId, divNFTContract, address])
 
     useEffect(() => {
         const getLastTokenId = async () => {
